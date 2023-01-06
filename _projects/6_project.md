@@ -1,80 +1,22 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Mechatronic Ginger Bread Houses
+description: 
 img:
-importance: 4
-category: fun
+importance: 3
+category: Fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Inspired by my advisor's family tradition, my partner and I build our own mechatronic ginger bread house.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+# Year: 2022
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+XXX: Video
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+We used this [Gingerbread recipe](https://www.simplyrecipes.com/recipes/how_to_make_a_gingerbread_house/) and I liked it a lot! Very stable and delicious! I used 1/8th of an inch thick gingerbread.I did not like my royal icing recipe, it was not as stable. I think I needed to add more egg whites. All in all we were very happy with the outcome and the entire structure moved which was a big accomplishment for us!  
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+# Year: 2021
 
+XXX: Video
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The paper model I made did not account for the thickness of the gingerbread which I rolled out to 1/4th of an inch. So the structure was a bit wonky. I also did not love how this gingerbread tasted (it was awhile ago so I do not remember what recipe I used). The structure lasted us a long time and brought us a lot of joy! 

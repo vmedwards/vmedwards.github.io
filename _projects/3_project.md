@@ -1,81 +1,75 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Calibrated Mixed Reality
+description: Mixed reality allows for the combination of robots and simulated agents to improve scalability. To improve the fidelity of these experiments data driven models are used to match performance.
+img: assets/img/cmr_magic_robots.png
 importance: 3
-category: work
+category: Past Research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Summary:
+While a member of the [APRIL Robotics Lab](https://april.eecs.umich.edu/) at the University of Michigan I worked on various projects. This included the Cybersees project which aimed to have a robot survey landfills, assisting in feature identification from overhead aerial images, as well as working on scalable experimentation for verification of collective behavior. In addition, I was completing course work which focused on core robotics skills including: Artificial Intelligence, Computer Vision, Simultaneous Localization and Mapping (SLAM), and Linear Control.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+# Research Overview
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+"Simulation is doomed to succeed," was first coined by Rodney A. Brooks and Maja Mataric, published in "Real robots, real learning problems." in Robot Learning, Springer, 1993. This quote was the inspiration for the work we did at the University of Michigan. We knew from previous experiments in the lab that large robot teams required large engineering teams. Our objective was to lessen the engineering overhead by leveraging insights that real robots and simulated robots could be coupled together. However, there needs to be a way to ensure that the robots and the simulated agents were sufficiently similar to allow for fair performance analysis.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+This work began as paper replication for Advanced Artificial Intelligence, EECS 692.  The paper was: Wu, Wencen, Iain D. Couzin, and Fumin Zhang. "Bio-inspired source seeking with no explicit gradient estimation." IFAC Proceedings Volumes 45.26 (2012): 240-245. We were able to achieve the results presented in the paper using the MAEbot platform. 
+
+<div class="container">
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-8 mt-3 mt-md-0">
+{% include figure.html path="assets/img/paper_rep.jpg" title="maebot" class="img-fluid rounded z-depth-1" %}	
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+{% include figure.html path="assets/img/maebot.jpg" title="maebot" class="img-fluid rounded z-depth-1" %}	
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+</div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Left: Results from the replication of Wu et al. We saw comparable performance on different robots using camera information as input. Right: MAEbot robotic platform
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
+
+In addition to the replication, we extended this work using mixed reality to observe the impacts on large numbers of robots on the source seeking algorithm. What we observed experimentally is that more robots crowded the space and further work is needed to better accommodate large numbers of robots.
+
+<p align="center">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/OyFo3LrQx1w" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+</p>
+
 <div class="caption">
-    This image can also have a caption. It's like magic.
+This video shows four MAEbots and various numbers of simulated robots performing source seeking. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
+Beyond this we also considered larger platforms, where the dynamics of the robot interacting with the environment were more significant. The magic robots are golden retriever sized, skid-steer robots.
+Using model fitting techniques and motor models we were able to find parameters to improve the fidelity of the simulated robots. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cmr_magic_robots.png" title="magic robot" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/april_robot.jpg" title="magic robot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Left: Experimental demonstration of calibrated mixed reality, after a calibration was performed. Right: Magic Robot
+</div>
+
+<p align="center">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/eIinT30xru8" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+</p>
+
+<div class="caption">
+This video shows two Magic Robots in action performing a pre-specified trajectory, results are included which demonstrate that simulated agents perform better when calibration is used to fit model parameters. 
+</div>
+
+<div class="publications">
+<h2>Associated Publications </h2>
+     {% bibliography -f papers -q @*[project=mr_michigan]* %}
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+This work was done in collaboration with Dr. Peter Gaskell and Dr. Ed Olson at the University of Michigan. 

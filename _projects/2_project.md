@@ -1,80 +1,49 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Verification of Emergent Behavior
+description: Experimental verification of swarm behaviors is challenging, one way to address this is to use mixed reality. Existing theoretical work proposes robot formations emerge from time delay between inter robot communication. Our results using the Crazyflie platform demonstrate the existence of theoretically predicted emergent behaviors 
+img: assets/img/nrl_mr.png
 importance: 2
-category: work
+category: Past Research 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Research Overview:
+Performing experimental verification and validation (V&V) for robot swarms with large numbers of agents is challenging. As such, our theoretical insights far exceed our experimental results. The goal of this program was to bridge the scalability gap using new experimental tools, mainly: Mixed Reality. This method combines simulated and real robots to help achieve large numbers without needing all of the physical platforms. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Mixed reality allows for early testing and evaluation of theoretical models, which improves field deployment readiness, and serves as a step in the experimental pipeline. In this work, we were specifically interested in the emergence of different collective behaviors which arise due to communication or sensor data processing time delay.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Two experimental platforms were studied including the Pelican Unmanned Ariel Vehicle (UAV) and the Crazyflie micro Ariel Vehicle.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
+<div class="container">
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pelican.jpg" title="pelican" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/crazyflie.jpg" title="crazyflie" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Left: Pelican UAV, Right: Bitcraze Crazyflie UAV
+</div>
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<p align="center">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/zuhuCXFaW5Y" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+</p>
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="caption">
+This video demonstrates mixed reality used with 8 real and 16 simulated agents executing a known Ring behavior. The controller used has been theoretically studied and we know there are multiple different forms of emergent behavior. This result shows one such behavior.
 </div>
-```
-{% endraw %}
+
+Experimental results focused on demonstrating the ring emergent behavior, as well as demonstrating switching from one behavior to another, (Ring to Rotating behavior). For more details please consult the citations below.
+
+
+<div class="publications">
+<h2>Associated Publications </h2>
+     {% bibliography -f papers -q @*[project=nrl_swarm]* %}
+</div>
+
+This work was done in collaboration with Dr. Jason Hindes, Dr. Ira B. Schwartz, Dr. Ioana Triandof, and Donald Sofge at the US Naval Research Laboratory. 
+

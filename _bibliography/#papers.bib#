@@ -1,0 +1,142 @@
+---
+---
+
+@article{edwards2020delay,
+  title={Delay induced swarm pattern bifurcations in mixed reality experiments},
+  author={Edwards, Victoria and deZonia, Philip and Hsieh, M Ani and Hindes, Jason and Triandaf, Ioana and Schwartz, Ira B},
+  journal={Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  volume={30},
+  number={7},
+  pages={073126},
+  year={2020},
+  publisher={AIP Publishing LLC},
+  abstract={Swarms of coupled mobile agents subject to inter-agent wireless communication delays are known to exhibit multiple dynamic patterns in space that depend on the strength of the interactions and the magnitude of the communication delays. We experimentally demonstrate communication delay-induced bifurcations in the spatio-temporal patterns of robot swarms using two distinct hardware platforms in a mixed reality framework. Additionally, we make steps toward experimentally validating theoretically predicted parameter regions where transitions between swarm patterns occur. We show that multiple rotation patterns persist even when collision-avoidance strategies are incorporated, and we show the existence of multi-stable, co-existing rotational patterns not predicted by usual mean field dynamics. Our experiments are the first significant steps towards validating existing theory and the existence and robustness of the delay-induced patterns in real robotic swarms.},
+project={nrl_swarm},
+selected={true}
+}
+
+@article{hindes2020unstable,
+  title={Unstable modes and bistability in delay-coupled swarms},
+  author={Hindes, Jason and Edwards, Victoria and Kamimoto, Sayomi and Triandaf, Ioana and Schwartz, Ira B},
+  journal={Physical Review E},
+  volume={101},
+  number={4},
+  pages={042202},
+  year={2020},
+  publisher={APS},
+  project={nrl_swarm}
+}
+
+@article{hindes2020stability,
+  title={Stability of milling patterns in self-propelled swarms on surfaces},
+  author={Hindes, Jason and Edwards, Victoria and Kamimoto, Sayomi and Stantchev, George and Schwartz, Ira B},
+  journal={Physical Review E},
+  volume={102},
+  number={2},
+  pages={022212},
+  year={2020},
+  publisher={APS},
+}
+
+@inproceedings{edwards2018calibrating,
+  title={Calibrating mixed reality for scalable multi-robot experiments},
+  author={Edwards, Victoria and Gaskell, Peter and Olson, Edwin},
+  booktitle={Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},
+  pages={2183--2185},
+  year={2018},
+  project={mr_michigan}
+}
+
+@inproceedings{edwards2016segregation,
+  title={Segregation of heterogeneous robotics swarms via convex optimization},
+  author={Edwards, Victoria and Rezeck, Paulo and Chaimowicz, Luiz and Hsieh, M Ani},
+  booktitle={Dynamic Systems and Control Conference},
+  volume={50695},
+  pages={V001T03A001},
+  year={2016},
+  organization={American Society of Mechanical Engineers},
+  project={swarm_segregation}
+}
+
+@article{hindes2021swarm,
+  title={Swarm shedding in networks of self-propelled agents},
+  author={Hindes, Jason and Edwards, Victoria and Kasraie, Klimka Szwaykowska and Stantchev, George and Schwartz, Ira B},
+  journal={Scientific Reports},
+  volume={11},
+  number={1},
+  pages={1--9},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
+
+@article{schwartz2021interacting,
+  title={Interacting Swarm Sensing and Stabilization},
+  author={Schwartz, Ira B and Edwards, Victoria and Hindes, Jason},
+  journal={arXiv preprint arXiv:2106.01824},
+  year={2021}
+}
+
+@article{edwards2020establishing,
+  title={Establishing Reliable Robot Behavior using Capability Analysis Tables},
+  author={Edwards, Victoria and McGuire, Loy and Redfield, Signe},
+  journal={arXiv preprint arXiv:2007.11739},
+  year={2020}
+}
+
+@article{schwartz2020torus,
+  title={Torus bifurcations of large-scale swarms having range dependent communication delay},
+  author={Schwartz, Ira B and Edwards, Victoria and Kamimoto, Sayomi and Kasraie, Klimka and Ani Hsieh, M and Triandaf, Ioana and Hindes, Jason},
+  journal={Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  volume={30},
+  number={5},
+  pages={051106},
+  year={2020},
+  publisher={AIP Publishing LLC},
+  project={nrl_swarm}
+}
+
+@article{salam2022learning,
+  title={Learning and Leveraging Features in Flow-Like Environments to Improve Situational Awareness},
+  author={Salam, Tahiya and Edwards, Victoria and Hsieh, M Ani},
+  journal={IEEE Robotics and Automation Letters},
+  year={2022},
+  publisher={IEEE}
+}
+
+@article{edwards2022DARS,
+  title={Stochastic nonlinear ensemble modeling and control for robot team environmental monitoring},
+  author={Edwards, Victoria and Silva, Thales C and  Hsieh, M Ani},
+  abstract={We seek methods to model, control, and analyze robot teams performing environmental monitoring tasks. During environmental monitoring, the goal is to have teams of robots collect various data throughout a fixed region for extended periods of time. Standard bottom-up task assignment methods do not scale as the number of robots and task locations increases and require computationally expensive replanning. Alternatively, top-down methods have been used to combat computational complexity, but most have been limited to the analysis of methods which focus on transition times between tasks. In this work, we study a class of nonlinear macroscopic models which we use to control a time varying distribution of robots performing different tasks throughout an environment. Our proposed ensemble model and control maintains desired time varying populations of robots by leveraging naturally occurring interactions between robots performing tasks. We validate our approach at multiple fidelity levels including experimental results, suggesting the effectiveness of our approach to perform environmental monitoring.},
+  journal={16th International Symposium on Distriubted Autonomous Robotic Systems (DARS)},
+  year={2022},
+  publisher={Springer},
+selected={true},
+project={stochastic_modeling},
+}
+
+@article{hindes2021critical,
+  title={Critical transition for colliding swarms},
+  author={Hindes, Jason and Edwards, Victoria and Hsieh, M Ani and Schwartz, Ira B},
+  journal={Physical Review E},
+  volume={103},
+  number={6},
+  pages={062602},
+  year={2021},
+  publisher={APS}
+}
+
+@article{wrightcrowd,
+  title={Crowd Polarization as Environmental Alignment Heuristic},
+  author={Wright, Ben and Edwards, Victoria}
+}
+
+@INPROCEEDINGS{Li22,
+  author={Li, Alice K. and Mao, Yue and Manjanna, Sandeep and Liu, Sixuan and Dhanoa, Jasleen and Mehta, Bharg and Edwards, Victoria and Ojeda, Fernando Cladera and Hsieh, M. Ani and Men, Maël Le and Sigg, Erig and Jerolmack, Douglas J. and Ulloa, Hugo N.},
+  booktitle={OCEANS 2022, Hampton Roads}, 
+  title={Towards Understanding Underwater Weather Events in Rivers Using Autonomous Surface Vehicles}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/OCEANS47191.2022.9977236},
+  project={river}}
