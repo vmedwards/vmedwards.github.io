@@ -11,6 +11,8 @@ on:
       - main
 
 jobs:
+  permissions:
+    deployments:read|write
   deploy:
     runs-on: ubuntu-latest
     steps:
