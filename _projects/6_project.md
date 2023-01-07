@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Mechatronic Ginger Bread Houses
+title: Mechatronic Gingerbread Houses
 description: 
 img:
 importance: 3
 category: Fun
 ---
 
-Inspired by my advisor's family tradition, my partner and I build our own mechatronic ginger bread house.
+Inspired by my advisor's family tradition, my partner and I build our own mechatronic gingerbread house.
 
 # Year: 2022
 
