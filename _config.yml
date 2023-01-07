@@ -60,6 +60,19 @@ linkedin_username: vedwards1 # your LinkedIn user name
 scholar_userid: m5rgBkUAAAAJ # your Google Scholar ID
 work_url: https://scalar.seas.upenn.edu/ # work page URL
 
+gitlab_username: # your GitLab user name
+twitter_username: # your Twitter handle
+orcid_id: # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+keybase_username: # your keybase user name
+wikidata_id: # your wikidata id
+dblp_url: # your DBLP profile url
+stackoverflow_id: #your stackoverflow id
+
 contact_note: >
   The easiest way to reach me is by email. 
 
