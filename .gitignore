@@ -9,3 +9,5 @@ _site
 Gemfile.lock
 vendor
 
+_projects/8_project.md
+assets/img/feathers.jpg
