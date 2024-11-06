@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'jekyll-archives'
+  gem 'jekyll'
+  gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -16,6 +17,7 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
+    gem 'uri', '0.10.1'
 end
 group :other_plugins do
     gem 'httparty'
