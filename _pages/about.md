@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am an experimental roboticist working on heterogeneous robotic teaming. 
-I am interested in how robot teams work together to achieve complex tasks in unstructured environments. This spans interests from large scale collectives demonstrating emergent behavior, to smaller scale teams with sophisticated capabilities and coordinated task strategies. I use tools from dynamical systems theory and probability theory to bridge the gaps between algorithmic methods to deploy teams of robots and existing modeling methods which describe the evolution of the team. Identifying the underlying connections between the model and the algorithm hits at a fundamental question of understanding the continuous world in relation to a discretized algorithm.
+I am interested in how robot teams work together to achieve complex tasks in unstructured dynamic and uncertain environments. This spans interests from large scale collectives demonstrating emergent behavior, to robot teams with sophisticated capabilities and coordinated task strategies. I use tools from Dynamical Systems theory and Complex Systems theory to bridge the gaps between algorithmic methods to deploy teams of robots and existing modeling methods which describe the evolution of the team. Identifying the underlying connections between the model and the algorithm hits at a fundamental question of understanding the continuous world in relation to a discretized algorithm.
 
 
 
