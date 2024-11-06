@@ -24,7 +24,7 @@ From this, two themes emerge in my research. 1) How do we design and coordinate 
 I hope to use capability advances in multi robot systems to increase our climate resiliency.
 I have interests in both robot teams with sophisticated capabilities and coordinated task strategies and large scale collectives demonstrating emergent behavior.
 Throughout my research I have experimented with unmanned ground vehicles (UGVs), unmanned aerial vehicles (UAVs), unmanned surface vehicles (USVs).
-In the future, it will be important to use the strengths of each of these platforms to capture different levels of spatiotemporal data about changing environment conditions.
+In the future, it will be important to use the strengths of each of these platforms to capture data at different space and times scales about changing environment conditions.
 
 
 
