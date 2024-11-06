@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://vmedwards.github.io/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Victoria M Edwards | Page not found</title>
+    <title>Victoria M Edwards | Adaptive Macoroscopic Ensemble Modeling and Control of Robot Teams</title>
     <meta name="author" content="Victoria M Edwards" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="We introduce environmental feedback to macroscopic ensemble modeling and control of robot teams to adapt team assignment to changing environmental conditions." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://vmedwards.github.io/404.html">
+    <link rel="canonical" href="https://vmedwards.github.io/projects/5_project/">
     
     <!-- Dark Mode -->
     
@@ -98,12 +98,83 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Adaptive Macoroscopic Ensemble Modeling and Control of Robot Teams</h1>
+            <p class="post-description">We introduce environmental feedback to macroscopic ensemble modeling and control of robot teams to adapt team assignment to changing environmental conditions.</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://vmedwards.github.io/">here</a>.</p>
+            <h1 id="research-objective">Research Objective:</h1>
+
+<p>We want robot teams to monitor unknown dynamic environments.
+This requires assigning robots to sampling locations, a variant of the Multi Robot Task Allocation (MRTA) problem.
+Existing methods reduce the MRTA problem to a resource assignment problem and do not have the necessary scalability or fleixbility.
+In contrast, macroscopic ensemble methods have the scalability but lack the necessary flexibility to adapt to environment changes.
+This project aims to improve macroscopic ensemble methods in two critical ways.
+Firstly, we will use environment model feedback to inform desired distributions of robots performing spatially distributed environmental monitoring tasks.
+Secondly, we will leverage recent success in controlling higher order macroscopic ensemble moments to allow for small robot team size.
+Together we show improved team-wide flexibility with evaluation done in simulation and experimentally.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/mASV_v2-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/mASV_v2-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/mASV_v2-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/mASV_v2.png" title="Laboratory Testing Environment">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+The miniature Autonomous Surface Vehicles v2 (mASV) are differential drive robots which use an Arduino Fio, XBee communication, and OptiTrack for global positioning. 
+</div>
+
+<p>We experimentally verify our methods using the miniature Autonomous Surface Vehicles (mASVs) which are built in house at the ScALAR lab. Our testing environment is a 4m x 3m x 1.5m tank, equipped with 13 OptiTrack cameras, and the capability to make gyres in the tank. At any given time we can have upwards of 10 mASV in the tank performing different control strategies. Within the tank we have demonstrated heterogeneous teams using Crazyflie robots and mASV simultaneously.</p>
+
+<h2 id="relevant-publications">Relevant Publications:</h2>
+
+<p>We currently have two papers under review.
+Firstly, we introduced an adaptive macroscopic ensemble method which takes in environment feedback from a Gaussian Process Environment model (under review at IEEE RAL). Secondly, we present a distributed adpative macroscopic ensemble method that requires the addition of a communication task and an overhead unmanned aerial vehicle (under review at AAMAS ‘25).</p>
+
+<div class="publications">
+<h2>Associated Publications </h2>
+     <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="silva2022DARS" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Proportional Control for Stochastic Regulation on Allocation of Multi-Robots</div>
+          <!-- Author -->
+          <div class="author">Silva, Thales C, 
+                  <em>Edwards, Victoria</em>, and Hsieh, M Ani
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>16th International Symposium on Distributed Autonomous Robotic Systems (DARS)</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+</div>
+
+<p>This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab.</p>
 
           </article>
 
