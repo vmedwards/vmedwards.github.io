@@ -17,8 +17,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an experimental roboticist working on heterogeneous robotic teaming. 
-I am interested in how robot teams work together to achieve complex tasks in unstructured dynamic and uncertain environments. This spans interests from large scale collectives demonstrating emergent behavior, to robot teams with sophisticated capabilities and coordinated task strategies. I use tools from Dynamical Systems theory and Complex Systems theory to bridge the gaps between algorithmic methods to deploy teams of robots and existing modeling methods which describe the evolution of the team. Identifying the underlying connections between the model and the algorithm hits at a fundamental question of understanding the continuous world in relation to a discretized algorithm.
+I am an experimental roboticist working at the intersection of Robotics, Complex Systems Theory and Dynamical Systems Theory.
+In the long term, I want to combine environment models with models from Complex Systems theory to control robot teams monitoring dynamic environments.
+My research shows the power of complex systems theory for analyzing robotic systems to enable increased scalability and flexibility for operating in uncertain and  dynamic environments. 
+From this, two themes emerge in my research. 1) How do we design and coordinate multi robot systems to perform missions in uncertain and dynamic environments? and 2) How do we use robot teams to help understand natural phenomena, e.g., changing water temperatures.
+I hope to use capability advances in multi robot systems to increase our climate resiliency.
+I have interests in both robot teams with sophisticated capabilities and coordinated task strategies and large scale collectives demonstrating emergent behavior.
+Throughout my research I have experimented with unmanned ground vehicles (UGVs), unmanned aerial vehicles (UAVs), unmanned surface vehicles (USVs).
+In the future, it will be important to use the strengths of each of these platforms to capture different levels of spatiotemporal data about changing environment conditions.
 
 
 
