@@ -20,7 +20,7 @@ Together we show improved team-wide flexibility with evaluation done in simulati
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mASV_v2.png" title="Laboratory Testing Environment" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/mASV_v2.png" title="Laboratory Testing Environment" class="img-fluid rounded z-depth-1" %}
 
     </div>
 </div>

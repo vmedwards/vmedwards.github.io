@@ -17,10 +17,10 @@ Two experimental platforms were studied including the Pelican Unmanned Ariel Veh
 <div class="container">
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pelican.jpg" title="pelican" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pelican.jpg" title="pelican" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/crazyflie.jpg" title="crazyflie" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/crazyflie.jpg" title="crazyflie" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

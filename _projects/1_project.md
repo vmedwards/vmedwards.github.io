@@ -22,7 +22,7 @@ Our solution introduces robot-robot collaborations to the model which allow for 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mASVs.jpg" title="Laboratory Testing Environment" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/mASVs.jpg" title="Laboratory Testing Environment" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,10 +35,10 @@ We experimentally verify our methods using the miniature Autonomous Surface Vehi
 ## Relevant Publications:
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/well-mixed.png" title="well_mixed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/well-mixed.png" title="well_mixed" class="img-fluid rounded z-depth-1" %}
     </div>
        <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/non_mixed_collab.jpg" title="well_mixed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/non_mixed_collab.jpg" title="well_mixed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -47,7 +47,7 @@ We experimentally verify our methods using the miniature Autonomous Surface Vehi
 
 <div class="row justify-content-sm-center">
        <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/DARS_24_pic2.jpeg" title="well_mixed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/DARS_24_pic2.jpeg" title="well_mixed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -21,7 +21,7 @@ During the summer of 2023 I served as a co-lead with Alice Kate Li for river dep
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/both_boats.jpg" title="boats_on_the_river" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/both_boats.jpg" title="boats_on_the_river" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,10 +31,10 @@ Both boats on the river!
 <div class="container">
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/boat_data_collecting.jpg" title="data1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/boat_data_collecting.jpg" title="data1" class="img-fluid rounded z-depth-1" %}
 	</div>
 	<div class="col-sm-6 mt-3 mt-md-0">
-	{% include figure.html path="assets/img/team_deployment.jpg" title="team1" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid path="assets/img/team_deployment.jpg" title="team1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </div>
@@ -49,7 +49,7 @@ The summer of 2022 the USV project was taken over by Alice Kate Li, an ESE PhD s
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/team_lead_alice.jpg" title="team_lead" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/team_lead_alice.jpg" title="team_lead" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +58,7 @@ Team lead Alice Kate Li running the base station for the boat deployments.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/group_on_dock.jpg" title="group" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/group_on_dock.jpg" title="group" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -68,10 +68,10 @@ Group effort, from left to right: Yue, Alice, Jasleen, Maël, Bharg
 <div class="container">
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/double_boats.jpg" title="double_boats1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/double_boats.jpg" title="double_boats1" class="img-fluid rounded z-depth-1" %}
 	</div>
 	<div class="col-sm-6 mt-3 mt-md-0">
-	{% include figure.html path="assets/img/me_and_robots.jpg" title="double_boats2" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid path="assets/img/me_and_robots.jpg" title="double_boats2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </div>
@@ -86,10 +86,10 @@ Getting the Clearpath Heron in working order after a full year off the water due
 <div class="container">
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/work_in_pennovation.jpg" title="work1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/work_in_pennovation.jpg" title="work1" class="img-fluid rounded z-depth-1" %}
     </div>
      <div class="col-sm-6 mt-3 mt-md-0">
-	{% include figure.html path="assets/img/work_on_dock.jpg" title="work2" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid path="assets/img/work_on_dock.jpg" title="work2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </div>
@@ -99,7 +99,7 @@ Left: Me, Fernando Caldera, and Michael Anoruo working in the Pennovation buildi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-	{% include figure.html path="assets/img/boat_in_water.jpg" title="work3" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid path="assets/img/boat_in_water.jpg" title="work3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
