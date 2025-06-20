@@ -21,6 +21,7 @@ Together we show improved team-wide flexibility with evaluation done in simulati
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/mASV_v2.png" title="Laboratory Testing Environment" class="img-fluid rounded z-depth-1" %}
+
     </div>
 </div>
 <div class="caption">
@@ -41,3 +42,4 @@ Firstly, we introduced an adaptive macroscopic ensemble method which takes in en
 </div>
 
 This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab. 
+

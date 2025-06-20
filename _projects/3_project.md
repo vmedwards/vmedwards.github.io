@@ -26,6 +26,7 @@ This work began as paper replication for Advanced Artificial Intelligence, EECS 
 {% include figure.html path="assets/img/maebot.jpg" title="maebot" class="img-fluid rounded z-depth-1" %}	
     </div>
 </div>
+
 </div>
 <div class="caption">
 Left: Results from the replication of Wu et al. We saw comparable performance on different robots using camera information as input. Right: MAEbot robotic platform
@@ -51,6 +52,7 @@ Using model fitting techniques and motor models we were able to find parameters 
     </div>
      <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/april_robot.jpg" title="magic robot" class="img-fluid rounded z-depth-1" %}
+
     </div>
 </div>
 <div class="caption">
@@ -73,3 +75,4 @@ This video shows two Magic Robots in action performing a pre-specified trajector
 
 
 This work was done in collaboration with Dr. Peter Gaskell and Dr. Ed Olson at the University of Michigan. 
+

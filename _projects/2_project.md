@@ -33,6 +33,7 @@ Left: Pelican UAV, Right: Bitcraze Crazyflie UAV
 <iframe width="420" height="315" src="https://www.youtube.com/embed/zuhuCXFaW5Y" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 </p>
 
+
 <div class="caption">
 This video demonstrates mixed reality used with 8 real and 16 simulated agents executing a known Ring behavior. The controller used has been theoretically studied and we know there are multiple different forms of emergent behavior. This result shows one such behavior.
 </div>
