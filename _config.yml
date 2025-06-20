@@ -139,7 +139,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 #  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
