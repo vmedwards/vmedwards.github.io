@@ -6,22 +6,22 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Victoria
 middle_name: M
 last_name: Edwards
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+email: vmedw@seas.upenn.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Multi Robot Systems, Environmental Monitoring, Marine Robotics # add your own keywords or leave empty
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url:https://vmedwards.github.io  # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+icon: ⚛️ #the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://vmedwards.github.io # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
@@ -67,6 +67,7 @@ serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
+
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -82,26 +83,65 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
 github_username: vmedwards # your GitHub user name
 linkedin_username: vedwards1 # your LinkedIn user name
 scholar_userid: m5rgBkUAAAAJ # your Google Scholar ID
 work_url: https://scalar.seas.upenn.edu/ # work page URL
 
+twitter_username: # your Twitter handle
+orcid_id: # your ORCID ID
+acm_id: # your dl.acm.org/profile/id
+blogger_url: # your blogger URL
+bluesky_url: # your bluesky URL
+dblp_url: # your DBLP profile url
+discord_id: # your discord id (18-digit unique numerical identifier)
+facebook_id: # your facebook id
+flickr_id: # your flickr id
+gitlab_username: # your GitLab user name
+ieee_id: # your ieeexplore.ieee.org/author/id
+inspirehep_id: 1010907 # Inspire HEP author ID
+instagram_id: # your instagram id
+kaggle_id: # your kaggle id
+keybase_username: # your keybase user name
+lastfm_id: # your lastfm id
+lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+
+medium_username: # your Medium username
+osf_id: # your OSF ID
+pinterest_id: # your pinterest id
+publons_id: # your ID on Publons
+quora_username: # your Quora username
+research_gate_profile: # your profile on ResearchGate
+
+wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
+x_username: # your X handle
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+zotero_username: # your zotero username
+
+contact_note: >
+  The easiest way to reach me is by email. 
+
+
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:  # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+#blog_name:  # your blog must have a name for it to show up in the nav bar
+#blog_description: a simple whitespace theme for academics
+#permalink: /blog/:year/:title/
 
 # Pagination
-pagination:
-  enabled: false
+#pagination:
+#  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -148,14 +188,24 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: false
   news:
     defaults:
       layout: post
     output: true
+    permalink: /:collection/:title/
   projects:
     output: true
+    permalink: /:collection/:title/
+
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit:  # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -251,25 +301,26 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  permalinks:
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Edwards]
-  first_name: [Vicotria, M]
+
+  last_name: Edwards
+  first_name: [Victoria, M.]
 
   style: apa
   locale: en
@@ -383,7 +434,6 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
