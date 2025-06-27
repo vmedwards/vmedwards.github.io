@@ -13,9 +13,4 @@ Swarming systems consist of many robots, typically with simple capabilities or b
 Experimental results were demonstrated on E-Puck robots in the [VERLab](https://www.verlab.dcc.ufmg.br/), at the Federal University of Minas Gerais by Paulo Rezeck. 
 
 
-<div class="publications">
-<h2>Associated Publications </h2>
-     {% bibliography -f papers -q @*[project=swarm_segregation]* %}
-</div>
-
 This work was done in collaboration with Dr. M Ani Hsieh at Drexel University, and Dr. Luiz Chaimowicz and Paulo Rezeck at the Federal University of Minas Gerais. 

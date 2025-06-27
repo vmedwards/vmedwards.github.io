@@ -67,12 +67,6 @@ Left: Experimental demonstration of calibrated mixed reality, after a calibratio
 This video shows two Magic Robots in action performing a pre-specified trajectory, results are included which demonstrate that simulated agents perform better when calibration is used to fit model parameters. 
 </div>
 
-<div class="publications">
-<h2>Associated Publications </h2>
-     {% bibliography -f papers -q @*[project=mr_michigan]* %}
-</div>
-
-
 
 This work was done in collaboration with Dr. Peter Gaskell and Dr. Ed Olson at the University of Michigan. 
 

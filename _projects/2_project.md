@@ -41,10 +41,5 @@ This video demonstrates mixed reality used with 8 real and 16 simulated agents e
 Experimental results focused on demonstrating the ring emergent behavior, as well as demonstrating switching from one behavior to another, (Ring to Rotating behavior). For more details please consult the citations below.
 
 
-<div class="publications">
-<h2>Associated Publications </h2>
-     {% bibliography -f papers -q @*[project=nrl_swarm]* %}
-</div>
-
 This work was done in collaboration with Dr. Jason Hindes, Dr. Ira B. Schwartz, Dr. Ioana Triandof, and Donald Sofge at the US Naval Research Laboratory. 
 

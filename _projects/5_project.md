@@ -36,10 +36,5 @@ We experimentally verify our methods using the miniature Autonomous Surface Vehi
 We currently have two papers under review.
 Firstly, we introduced an adaptive macroscopic ensemble method which takes in environment feedback from a Gaussian Process Environment model (under review at IEEE RAL). Secondly, we present a distributed adpative macroscopic ensemble method that requires the addition of a communication task and an overhead unmanned aerial vehicle (under review at AAMAS '25). 
 
-<div class="publications">
-<h2>Associated Publications </h2>
-     {% bibliography -f papers -q @*[project=adaptive_macro]* %}
-</div>
-
 This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab. 
 

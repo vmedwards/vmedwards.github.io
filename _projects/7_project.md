@@ -107,10 +107,5 @@ The boat successfully on the river with Michael Anoruo as safety Kayaker.
 </div>
 
 
-<div class="publications">
-<h2>Associated Publications </h2>
-     {% bibliography -f papers -q @*[project=river]* %}
-</div>
-
 This work is done in collaboration with many students, post docs, and PIs in the ScalAR lab.
 
