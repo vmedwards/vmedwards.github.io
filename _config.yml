@@ -151,9 +151,9 @@ collections:
   books:
     output: false
   news:
+    output: true
     defaults:
       layout: post
-    output: true
   projects:
     output: true
 
