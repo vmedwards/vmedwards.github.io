@@ -13,9 +13,13 @@ profile:
     <p>3401 Grays Ferry Avenue</p>
     <p>Philadelphia, PA 19146</p>
 
-news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit:  # leave blank to include all the news in the `_news` folder
 ---
 
 I am an experimental roboticist working at the intersection of Robotics, Complex Systems Theory and Dynamical Systems Theory.
