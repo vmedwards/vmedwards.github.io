@@ -38,7 +38,7 @@ We experimentally verify our methods using the miniature Autonomous Surface Vehi
         {% include figure.liquid path="assets/img/well-mixed.png" title="well_mixed" class="img-fluid rounded z-depth-1" %}
     </div>
        <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/non_mixed_collab.jpg" title="well_mixed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/non_mixed_collab.png" title="non-well_mixed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
