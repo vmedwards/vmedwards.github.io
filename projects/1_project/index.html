@@ -1,373 +1,315 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <!-- Head -->
-  <head>    <!-- Metadata, OpenGraph and Schema.org -->
-    
-
-    <!-- Standard metadata -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Victoria M Edwards | Collaborative Macorscopic Ensemble Modeling and Control of Robot Teams</title>
-    <meta name="author" content="Victoria M Edwards" />
-    <meta name="description" content="We present solutions to the multi robot task allocation (MRTA) problem by controlling robot-robot collaborations to inform time-varying team-wide objectives at the macrosocpic level." />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
-
-
-    <!-- Bootstrap & MDB -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
-
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
-
-    <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
-
-    <!-- Styles -->
-    
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
-    
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://vmedwards.github.io/projects/1_project/">
-    
-    <!-- Dark Mode -->
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
-
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/dark_mode.js"></script>
-    
-
-  </head>
-
-  <!-- Body -->
-  <body class="fixed-top-nav ">
-
-    <!-- Header -->
-    <header>
-
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="https://vmedwards.github.io/"><span class="font-weight-bold">Victoria</span> M  Edwards</a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
-
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
-              </li>
-              
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">research projects</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <div class="toggle-container">
-                <a id="light-toggle">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </a>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Content -->
-    <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
-
-          <header class="post-header">
-            <h1 class="post-title">Collaborative Macorscopic Ensemble Modeling and Control of Robot Teams</h1>
-            <p class="post-description">We present solutions to the multi robot task allocation (MRTA) problem by controlling robot-robot collaborations to inform time-varying team-wide objectives at the macrosocpic level.</p>
-          </header>
-
-          <article>
-            <h1 id="research-objective">Research Objective:</h1>
-<p>We know that some dynamic environments have known periodic behavior, e.g., rivers with tidal shifts.
-To properly monitor changing environments it is necessary to assign robots to sampling locations.
-This is a variant of the Multi Robot Task Allocation (MRTA) problem in dynamic.
-Solutions to this problem can be categorized as follows.
-On one hand, microscopic solutions plan and control for individual robots and require expensive replanning when environment conditions change.
-On the other hand, macroscopic solutions design team-wide objectives to distribute robots throughout an environment.
-Macroscopic approaches have been shown to have nice analytical guarantees, scalability, and can be applied to heterogeneous robot collectives.
-However, macroscopic methods often ignore robot-robot collaborations in favor of model simplicity.
-As a result have been proven to be asympotically stable, i.e., given a desired distribution of robots we can find model parameters that will ensure those populations are achieved.
-The problem we aim to address is to design a macroscopic ensemble modeling and control method for multi robot teams that controls time-varying populations of robots.
-Our solution introduces robot-robot collaborations to the model which allow for the potential of time-varying distributions of robots in the workspace.</p>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/mASVs-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/mASVs-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/mASVs-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/mASVs.jpg" title="Laboratory Testing Environment">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-The miniature Autonomous Surface Vehicles (mASV) are differential drive robots which use an Arduino Fio, XBee communication, and OptiTrack for global positioning. 
-</div>
-
-<p>We experimentally verify our methods using the miniature Autonomous Surface Vehicles (mASVs) which are built in house at the ScALAR lab. Our testing environment is a 4m x 3m x 1.5m tank, equipped with 13 OptiTrack cameras, and the capability to make gyres in the tank. At any given time, we can have upwards of 10 mASV in the tank performing different control strategies. Within the tank we have demonstrated heterogeneous teams using Crazyflie robots and mASV simultaneously.</p>
-
-<h2 id="relevant-publications">Relevant Publications:</h2>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/well-mixed-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/well-mixed-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/well-mixed-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/well-mixed.png" title="well_mixed">
-
-  </picture>
-
-</figure>
-
-    </div>
-       <div class="col-sm-6 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/non_mixed_collab-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/non_mixed_collab-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/non_mixed_collab-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/non_mixed_collab.jpg" title="well_mixed">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
- Left: An example of robot-robot collaboration. Right: An example of breaking the well-mixed assumption.
-</div>
-
-<div class="row justify-content-sm-center">
-       <div class="col-sm-8 mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/DARS_24_pic2-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/DARS_24_pic2-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/DARS_24_pic2-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/DARS_24_pic2.jpeg" title="well_mixed">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
- A photo of me presenting at the DARS '24 conference at Cornell Tech. Photo taken by Danna Ma. 
-</div>
-
-<p>I recently presented at DARS ‘24 at Cornell Tech on collaborative macroscopic ensemble modeling and control of robot teams. We showed that our proposed model had the possibility of capturing time-varying populations and we introduced two interpretations of robot-robot collaboration. This work had an emphasis on studying the well-mixed assumption which is critical when using macroscopic ensemble methods. Our work was well recieved by the audience and I had a great round of questions after my talk!</p>
-
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tm8C4HIm440?si=KDC9k_nS4nYtefmX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</p>
-
-<div class="caption">
-This is the conference video to correspond with our IROS 2023 paper. 
-</div>
-
-<p>I presented our work to IROS ‘23 in Detroit, MI. This work covered the application of collaborative macroscopic ensemble methods to environmental monitoring scenarios. Our solution avoids partitioning the environment and allows the robots to more flexibly perform the monitoring task.</p>
-
-<p align="center">
-<iframe width="420" height="315" src="https://www.youtube.com/embed/X0QHgYM1s-g" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</p>
-
-<div class="caption">
-This video shows mixed reality trials with 4 real miniature Autonomous Surface Vehicles (mASV) and 6 simulated robots. The result is a robot team performing different tasks (red, blue, or green lights) where the distributions change over time without changing the model parameters or re-planning. 
-</div>
-
-<p>Our work presented at DARS ‘22 uses a nonlinear stochastic model to achieve time-varying distributions of robots which was a limitation of previous linear stochastic models. Our results suggest further work is needed to understand how macroscopic models can better incorporate feedback from the environment.</p>
-
-<div class="publications">
-<h2>Associated Publications </h2>
-     <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="edwards2022DARS" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Stochastic nonlinear ensemble modeling and control for robot team environmental monitoring</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Edwards, Victoria</em>, Silva, Thales C, and Hsieh, M Ani
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>16th International Symposium on Distriubted Autonomous Robotic Systems (DARS)</em> 2022
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>We seek methods to model, control, and analyze robot teams performing environmental monitoring tasks. During environmental monitoring, the goal is to have teams of robots collect various data throughout a fixed region for extended periods of time. Standard bottom-up task assignment methods do not scale as the number of robots and task locations increases and require computationally expensive replanning. Alternatively, top-down methods have been used to combat computational complexity, but most have been limited to the analysis of methods which focus on transition times between tasks. In this work, we study a class of nonlinear macroscopic models which we use to control a time varying distribution of robots performing different tasks throughout an environment. Our proposed ensemble model and control maintains desired time varying populations of robots by leveraging naturally occurring interactions between robots performing tasks. We validate our approach at multiple fidelity levels including experimental results, suggesting the effectiveness of our approach to perform environmental monitoring.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="edwards2023IROS" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">On Collaborative Robot Teams for Environmental Monitoring: A Macroscopic Ensemble Approach</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Edwards, Victoria</em>, Silva, Thales C, Mehta, Bharg, Dhanoa, Jasleen, and Hsieh, M Ani
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) </em> 2023
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>With the rapidly changing climate and an increase in extreme weather events, it is necessary to have better methods to monitor and study the impacts of these phenomena on urban river environments. Multi-robot environmental monitoring has long focused on strategies that assign individual robots to distinct regions or task objectives. While these methods have seen success for Autonomous Surface Vehicles (ASVs), the spatial expanse and temporal variability of rivers impose an increased burden on existing techniques, necessitating computationally intensive replanning. Alternative methods aim to model and control teams of robots by prescribing global constraints on the system, using the insight that robots’ transitions between tasks are stochastic and time-based. These methods do not require replanning because robots will perform different tasks achieving the overall desired system state, focusing on temporal switching alone limits their overall descriptive power. In this paper, we present a method that considers collaborations between robots to inform task switching based on spatial proximity. Our results suggest that in unknown environments macroscopic models provide increased flexibility for individual robot task execution as compared to coverage control methods. </p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="edwards2024DARS" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">A Macroscopic Ensemble Modeling Approach to Collaborative Task Assignment in Dynamic Environments</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Edwards, Victoria</em>, Silva, Thales C, and Hsieh, M Ani
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>17th International Symposium on Distributed Autonomous Robotic Systems (DARS)</em> 2024
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Monitoring a dynamic environment with robot teams requires continuously solving the multi-robot task allocation (MRTA) problem in response to environmental changes. The adaptive assignment of robots to different parts of the workspace as the environment changes makes this a Single-Task robots, Mulit-Robot tasks, and Time-extended Assignment (ST-MR-TA) problem.  Solutions to this problem can be classified as either macroscopic, where the assignment is obtained using a mean-field model of the team dynamics, or microscopic, where the assignment is posed as a resource allocation problem. While macroscopic techniques are scalable with team sizes and number of tasks, they lack expressiveness. On the other hand, microscopic techniques are more expressive, but often require expensive replanning when environmental conditions change.  In this work, we propose an alternative macroscopic formulation to the ST-MR-TA problem that results in a time-varying task assignment that can correspond to a changing environment. Our analysis of the macroscopic model uncovers parameter regimes where time-varying populations exist and further investigates the break down when the system is not well-mixed, i.e., when team sizes are small. Simulation validation shows that our proposed feedback control is necessary for small teams. </p>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-</div>
-
-<p>This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab.</p>
-
-          </article>
-
-        </div>
-
-    </div>
-
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        © Copyright 2024 Victoria M Edwards. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
-Last updated: November 06, 2024.
-      </div>
-    </footer>
-
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- Bootsrap & MDB scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
-    <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-    
-  <!-- Medium Zoom JS -->
-  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
-  <script src="/assets/js/common.js"></script>
-
-    <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Collaborative Macorscopic Ensemble Modeling and Control of Robot Teams | Victoria M Edwards </title> <meta name="author" content="Victoria M Edwards"> <meta name="description" content="We present solutions to the multi robot task allocation (MRTA) problem by controlling robot-robot collaborations to inform time-varying team-wide objectives at the macrosocpic level."> <meta name="keywords" content="Multi Robot Systems, Environmental Monitoring, Marine Robotics"> <link rel="stylesheet" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://vmedwards.github.io/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/1_project/"> <script src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/"> <span class="font-weight-bold">Victoria</span> M Edwards </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/">research projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/cv/">cv </a> </li> <li class="nav-item "> <a class="nav-link" href="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/people/">people </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Collaborative Macorscopic Ensemble Modeling and Control of Robot Teams</h1> <p class="post-description">We present solutions to the multi robot task allocation (MRTA) problem by controlling robot-robot collaborations to inform time-varying team-wide objectives at the macrosocpic level.</p> </header> <article> <h1 id="research-objective">Research Objective:</h1> <p>We know that some dynamic environments have known periodic behavior, e.g., rivers with tidal shifts. To properly monitor changing environments it is necessary to assign robots to sampling locations. This is a variant of the Multi Robot Task Allocation (MRTA) problem in dynamic. Solutions to this problem can be categorized as follows. On one hand, microscopic solutions plan and control for individual robots and require expensive replanning when environment conditions change. On the other hand, macroscopic solutions design team-wide objectives to distribute robots throughout an environment. Macroscopic approaches have been shown to have nice analytical guarantees, scalability, and can be applied to heterogeneous robot collectives. However, macroscopic methods often ignore robot-robot collaborations in favor of model simplicity. As a result have been proven to be asympotically stable, i.e., given a desired distribution of robots we can find model parameters that will ensure those populations are achieved. The problem we aim to address is to design a macroscopic ensemble modeling and control method for multi robot teams that controls time-varying populations of robots. Our solution introduces robot-robot collaborations to the model which allow for the potential of time-varying distributions of robots in the workspace.</p> <div class="row justify-content-sm-center"> <div class="col-sm-8 mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/mASVs.jpg" sizes="95vw"></source> <img src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/mASVs.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Laboratory Testing Environment" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <div class="caption"> The miniature Autonomous Surface Vehicles (mASV) are differential drive robots which use an Arduino Fio, XBee communication, and OptiTrack for global positioning. </div> <p>We experimentally verify our methods using the miniature Autonomous Surface Vehicles (mASVs) which are built in house at the ScALAR lab. Our testing environment is a 4m x 3m x 1.5m tank, equipped with 13 OptiTrack cameras, and the capability to make gyres in the tank. At any given time, we can have upwards of 10 mASV in the tank performing different control strategies. Within the tank we have demonstrated heterogeneous teams using Crazyflie robots and mASV simultaneously.</p> <h2 id="relevant-publications">Relevant Publications:</h2> <div class="row justify-content-sm-center"> <div class="col-sm-6 mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/well-mixed.png" sizes="95vw"></source> <img src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/well-mixed.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="well_mixed" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> <div class="col-sm-6 mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/non_mixed_collab.jpg" sizes="95vw"></source> <img src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/non_mixed_collab.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="well_mixed" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <div class="caption"> Left: An example of robot-robot collaboration. Right: An example of breaking the well-mixed assumption. </div> <div class="row justify-content-sm-center"> <div class="col-sm-8 mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/DARS_24_pic2.jpeg" sizes="95vw"></source> <img src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/img/DARS_24_pic2.jpeg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="well_mixed" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <div class="caption"> A photo of me presenting at the DARS '24 conference at Cornell Tech. Photo taken by Danna Ma. </div> <p>I recently presented at DARS ‘24 at Cornell Tech on collaborative macroscopic ensemble modeling and control of robot teams. We showed that our proposed model had the possibility of capturing time-varying populations and we introduced two interpretations of robot-robot collaboration. This work had an emphasis on studying the well-mixed assumption which is critical when using macroscopic ensemble methods. Our work was well recieved by the audience and I had a great round of questions after my talk!</p> <p align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/Tm8C4HIm440?si=KDC9k_nS4nYtefmX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe> </p> <div class="caption"> This is the conference video to correspond with our IROS 2023 paper. </div> <p>I presented our work to IROS ‘23 in Detroit, MI. This work covered the application of collaborative macroscopic ensemble methods to environmental monitoring scenarios. Our solution avoids partitioning the environment and allows the robots to more flexibly perform the monitoring task.</p> <p align="center"> <iframe width="420" height="315" src="https://www.youtube.com/embed/X0QHgYM1s-g" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe> </p> <div class="caption"> This video shows mixed reality trials with 4 real miniature Autonomous Surface Vehicles (mASV) and 6 simulated robots. The result is a robot team performing different tasks (red, blue, or green lights) where the distributions change over time without changing the model parameters or re-planning. </div> <p>Our work presented at DARS ‘22 uses a nonlinear stochastic model to achieve time-varying distributions of robots which was a limitation of previous linear stochastic models. Our results suggest further work is needed to understand how macroscopic models can better incorporate feedback from the environment.</p> <p>This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2025 Victoria M Edwards. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. Last updated: June 29, 2025. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/masonry.js" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $('#progress');
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+      setTimeout(progressBarSetup, 50);
     };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+      if ('max' in document.createElement('progress')) {
+        initializeProgressElement();
+        $(document).on('scroll', function () {
+          progressBar.attr({ value: getCurrentScrollPosition() });
+        });
+        $(window).on('resize', initializeProgressElement);
+      } else {
+        resizeProgressBar();
+        $(document).on('scroll', resizeProgressBar);
+        $(window).on('resize', resizeProgressBar);
+      }
+    }
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+      return $(window).scrollTop();
+    }
 
-    
-  </body>
-</html>
+    function initializeProgressElement() {
+      let navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      progressBar.css({ top: navbarHeight });
+      progressBar.attr({
+        max: getDistanceToScroll(),
+        value: getCurrentScrollPosition(),
+      });
+    }
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+      return $(document).height() - $(window).height();
+    }
 
+    function resizeProgressBar() {
+      progressBar.css({ width: getWidthPercentage() + '%' });
+    }
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+  </script> <script src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script>
+    let searchTheme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (searchTheme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+
+    const openSearchModal = () => {
+      // collapse navbarNav if expanded on mobile
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+      ninjaKeys.open();
+    };
+  </script> <script>
+    // get the ninja-keys element
+    const ninja = document.querySelector('ninja-keys');
+
+    // add the home and posts menu items
+    ninja.data = [{
+        id: "nav-about",
+        title: "about",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/";
+        },
+      },{id: "nav-blog",
+              title: "blog",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/blog/";
+              },
+            },{id: "nav-publications",
+              title: "publications",
+              description: "publications by categories in reversed chronological order. generated by jekyll-scholar.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/publications/";
+              },
+            },{id: "nav-research-projects",
+              title: "research projects",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/";
+              },
+            },{id: "nav-repositories",
+              title: "repositories",
+              description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/repositories/";
+              },
+            },{id: "nav-cv",
+              title: "cv",
+              description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/cv/";
+              },
+            },{id: "nav-people",
+              title: "people",
+              description: "members of the lab or group",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/people/";
+              },
+            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+          
+            title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          
+          description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+          section: "Posts",
+          handler: () => {
+            
+              window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            
+          },
+        },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+          
+            title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          
+          description: "",
+          section: "Posts",
+          handler: () => {
+            
+              window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            
+          },
+        },{id: "news-i-was-awarded-the-ndseg-fellowship-2021-cohort",
+              title: 'I was awarded the NDSEG Fellowship, 2021 Cohort',
+              description: "",
+              section: "News",},{id: "news-scalar-lab-demos-for-icra-2022-in-philadelphia",
+              title: 'ScalAR Lab Demos for ICRA 2022 in Philadelphia',
+              description: "",
+              section: "News",},{id: "news-scalar-lab-group-summer-2022",
+              title: 'ScalAR Lab Group Summer 2022',
+              description: "",
+              section: "News",},{id: "news-i-was-awarded-meam-department-spring-2022-outstanding-ta-award-presented-by-dr-prashant-purohit-and-nominated-by-dr-nadia-figueroa-for-work-done-in-meam-520-introduction-to-robotics",
+              title: 'I was awarded MEAM Department Spring 2022 Outstanding TA Award. Presented by Dr....',
+              description: "",
+              section: "News",},{id: "news-our-paper-was-accepted-and-presented-at-dars-2022-titled-stochastic-nonlinear-ensemble-modeling-and-control-for-robot-team-environmental-monitoring",
+              title: 'Our paper was accepted and presented at DARS 2022 titled: “Stochastic Nonlinear Ensemble...',
+              description: "",
+              section: "News",},{id: "news-i-was-awarded-the-university-of-pennsylvania-school-of-engineering-and-applied-sciences-seas-outstanding-teaching-award-may-2023",
+              title: 'I was awarded the University of Pennsylvania School of Engineering and Applied Sciences...',
+              description: "",
+              section: "News",},{id: "news-our-paper-was-accepted-and-presented-at-iros-2023-in-detroit-michigan-titled-on-collaborative-robot-teams-for-environmental-monitoring-a-macroscopic-ensemble-approach",
+              title: 'Our paper was accepted and presented at IROS 2023 in Detroit, Michigan. Titled:...',
+              description: "",
+              section: "News",},{id: "news-come-to-our-workshop-robotics-for-the-blue-economy-and-climate-resiliency-at-iros-2023-in-detroit-michigan-program-starts-at-0830-1730-and-includes-outstanding-speakers-poster-presentations-networking-opportunities-and-much-more-for-more-information-about-the-workshop-look-here",
+              title: 'Come to our workshop “Robotics for the Blue Economy and Climate Resiliency” at...',
+              description: "",
+              section: "News",},{id: "news-i-was-awarded-the-university-of-pennsylvania-school-of-engineering-and-applied-sciences-seas-outstanding-teaching-award-may-2024",
+              title: 'I was awarded the University of Pennsylvania School of Engineering and Applied Sciences...',
+              description: "",
+              section: "News",},{id: "news-our-paper-was-accepted-and-presented-at-dars-2024-titled-a-macroscopic-ensemble-modeling-approach-to-collaborative-task-assignment-in-dynamic-environments-photo-taken-by-danna-ma-on-october-30-at-cornell-tech-nyc",
+              title: 'Our paper was accepted and presented at DARS 2024 titled: “A Macroscopic Ensemble...',
+              description: "",
+              section: "News",},{id: "news-i-am-the-co-recipient-of-the-john-a-goff-prize-with-bibit-bianchini-the-meam-faculty-annually-select-one-to-two-students-that-demonstrate-outstanding-scholarship-resourcefulness-and-leadership-article-writeup-by-grasp-staff-photo-of-bibit-bianchini-and-torrie-edwards-during-the-seas-graduate-student-award-ceremony",
+              title: 'I am the co-recipient of the John A Goff Prize, with Bibit Bianchini....',
+              description: "",
+              section: "News",},{id: "news-our-paper-was-accepted-and-presented-as-an-extended-abstract-at-aamas-2025-titled-distributed-adaptive-macroscopic-ensemble-task-allocation-of-heterogeneous-robot-teams-in-dynamic-environments-photo-taken-at-aamas-2025-in-detroit-michigan",
+              title: 'Our paper was accepted and presented as an Extended Abstract at AAMAS 2025...',
+              description: "",
+              section: "News",},{id: "projects-collaborative-macorscopic-ensemble-modeling-and-control-of-robot-teams",
+              title: 'Collaborative Macorscopic Ensemble Modeling and Control of Robot Teams',
+              description: "We present solutions to the multi robot task allocation (MRTA) problem by controlling robot-robot collaborations to inform time-varying team-wide objectives at the macrosocpic level.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/1_project/";
+                },},{id: "projects-verification-of-emergent-behavior",
+              title: 'Verification of Emergent Behavior',
+              description: "Experimental verification of swarm behaviors is challenging, one way to address this is to use mixed reality. Existing theoretical work proposes robot formations emerge from time delay between inter robot communication. Our results using the Crazyflie platform demonstrate the existence of theoretically predicted emergent behaviors",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/2_project/";
+                },},{id: "projects-calibrated-mixed-reality",
+              title: 'Calibrated Mixed Reality',
+              description: "Mixed reality allows for the combination of robots and simulated agents to improve scalability. To improve the fidelity of these experiments data driven models are used to match performance.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/3_project/";
+                },},{id: "projects-heterogeneous-robotic-swarms",
+              title: 'Heterogeneous Robotic Swarms',
+              description: "Segregation of heterogeneous robotic swarms is a necessary step before performing a new task.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/4_project/";
+                },},{id: "projects-adaptive-macoroscopic-ensemble-modeling-and-control-of-robot-teams",
+              title: 'Adaptive Macoroscopic Ensemble Modeling and Control of Robot Teams',
+              description: "We introduce environmental feedback to macroscopic ensemble modeling and control of robot teams to adapt team assignment to changing environmental conditions.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/5_project/";
+                },},{id: "projects-mechatronic-gingerbread-houses",
+              title: 'Mechatronic Gingerbread Houses',
+              description: "",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/6_project/";
+                },},{id: "projects-usv-river-deployments",
+              title: 'USV River Deployments',
+              description: "Deploying Unmanned Surface Vehicles on the Schuylkill River in Philadelphia PA to collect data about the health of the river.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/7_project/";
+                },},{id: "projects-project-8",
+              title: 'project 8',
+              description: "an other project with a background image and giscus comments",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/8_project/";
+                },},{id: "projects-project-9",
+              title: 'project 9',
+              description: "another project with an image 🎉",
+              section: "Projects",handler: () => {
+                  window.location.href = "/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/projects/9_project/";
+                },},{
+            id: 'socials-google-scholar',
+            title: 'Google Scholar',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://scholar.google.com/citations?user=m5rgBkUAAAAJ", "_blank");
+            },
+          },{
+            id: 'socials-github',
+            title: 'GitHub',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://github.com/vmedwards", "_blank");
+            },
+          },{
+            id: 'socials-linkedin',
+            title: 'LinkedIn',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://www.linkedin.com/in/vedwards1", "_blank");
+            },
+          },{
+            id: 'socials-work',
+            title: 'Work',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://scalar.seas.upenn.edu/", "_blank");
+            },
+          },{
+          id: 'light-theme',
+          title: 'Change theme to light',
+          description: 'Change the theme of the site to Light',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("light");
+          },
+        },
+        {
+          id: 'dark-theme',
+          title: 'Change theme to dark',
+          description: 'Change the theme of the site to Dark',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("dark");
+          },
+        },
+        {
+          id: 'system-theme',
+          title: 'Use system default theme',
+          description: 'Change the theme of the site to System Default',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("system");
+          },
+        },];
+  </script> <script src="/#%20the%20subpath%20of%20your%20site,%20e.g.%20/blog/.%20Leave%20blank%20for%20root/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
