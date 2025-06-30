@@ -33,7 +33,7 @@ We experimentally verify our methods using the miniature Autonomous Surface Vehi
 
 ## Relevant Publications: 
 
-The original derivation of moments can be found in {% cite silva2022DARS}. We have an extended abstract which discusses a distributed approach to the adaptive macroscopic ensemble allocation framework {% cite edwards2025distributed %}. 
+The original derivation of moments can be found in {% cite silva2022DARS %}. We have an extended abstract which discusses a distributed approach to the adaptive macroscopic ensemble allocation framework {% cite edwards2025distributed %}. 
 Finally, we are currently preparing a journal manuscript to introduced adaptive macroscopic ensemble allocation which takes in environment feedback to inform robot task selection.  
 
 This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab.
