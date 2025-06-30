@@ -79,4 +79,6 @@ This video shows mixed reality trials with 4 real miniature Autonomous Surface V
 Our work presented at DARS '22 uses a nonlinear stochastic model to achieve time-varying distributions of robots which was a limitation of previous linear stochastic models. Our results suggest further work is needed to understand how macroscopic models can better incorporate feedback from the environment.  
 
 
-This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab. 
+This work is done in collaboration with Dr. Thales C. Silva and Dr. M. Ani Hsieh at the University of Pennsylvania GRASP lab.
+
+
