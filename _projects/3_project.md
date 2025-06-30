@@ -70,3 +70,4 @@ This video shows two Magic Robots in action performing a pre-specified trajector
 
 This work was done in collaboration with Dr. Peter Gaskell and Dr. Ed Olson at the University of Michigan. 
 
+{% cite edwards2018calibrating %}

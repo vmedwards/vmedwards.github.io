@@ -14,3 +14,5 @@ Experimental results were demonstrated on E-Puck robots in the [VERLab](https://
 
 
 This work was done in collaboration with Dr. M Ani Hsieh at Drexel University, and Dr. Luiz Chaimowicz and Paulo Rezeck at the Federal University of Minas Gerais. 
+
+{% cite edwards2016segregation %}

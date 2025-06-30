@@ -43,3 +43,4 @@ Experimental results focused on demonstrating the ring emergent behavior, as wel
 
 This work was done in collaboration with Dr. Jason Hindes, Dr. Ira B. Schwartz, Dr. Ioana Triandof, and Donald Sofge at the US Naval Research Laboratory. 
 
+{% cite edwards2020delay hindes2020unstable hindes2020stability schwartz2020torus %}

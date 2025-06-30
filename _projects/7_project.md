@@ -13,8 +13,11 @@ The [ScalAR Lab](https://scalar.seas.upenn.edu/) has two Unmanned Surface Vehicl
 # Recent Work:
 Each year, field deployments start in early May and end in late August. These deployments involve large teams, anywhere from 8 to a minimum of 3 people to deploy the systems safely. We can have anywhere from 5 to 12 field deployments in the summer. This is weather dependent.
 
+### Summer 2025
+We have deployed to the river! We are actively working on general maintenance for the boats and looking forward to our next set of results. 
+
 ### Summer of 2024
-Due to unforseen circumstances we were not able to get out to the river this past summer. It is our hope to get out on the river in the early Spring to test new adaptive geofencing capabilities with the clearpath heron. 
+Due to unforeseen circumstances we were not able to get out to the river this past summer. It is our hope to get out on the river in the early Spring to test new adaptive geofencing capabilities with the Clearpath heron. 
 
 ### Summer of 2023
 During the summer of 2023 I served as a co-lead with Alice Kate Li for river deployments. The objective was to collect data using the Clearpath Heron robot and make overall hardware improvements to the custom USV. In addition, we started testing with new robot behaviors to allow the Heron to respond to data collected in real time.
@@ -79,6 +82,7 @@ Group effort, from left to right: Yue, Alice, Jasleen, Maël, Bharg
 Me and the big ASV and the Heron during a field deployment
 </div>
 
+{% cite Li22 edwards2023IROS %}
 
 ### Summer of 2021
 Getting the Clearpath Heron in working order after a full year off the water due to the COVID-19 pandemic. We had a successful season collecting depth data of the river bed autonomously. My role was to help setup the Gazebo simulation, update sensor packages for the addition of a VectorNav IMU, running the base station during deployments, and processing data collected.
