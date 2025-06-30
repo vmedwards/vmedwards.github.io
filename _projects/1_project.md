@@ -30,7 +30,7 @@ Our solution introduces robot-robot collaborations to the model which allow for 
 The miniature Autonomous Surface Vehicles (mASV) are differential drive robots which use an Arduino Fio, XBee communication, and OptiTrack for global positioning. 
 </div>
 
-We experimentally verify our methods using the miniature Autonomous Surface Vehicles (mASVs) which are built in house at the ScaLAR lab. Our testing environment is a 4m x 3m x 1.5m tank, equipped with 13 OptiTrack cameras, and the capability to make gyres in the tank. At any given time, we can have upwards of 10 mASV in the tank performing different control strategies. Within the tank we have demonstrated heterogeneous teams using Crazyflie robots and mASV simultaneously.
+We experimentally verify our methods using the miniature Autonomous Surface Vehicles (mASVs) which are built in house at the ScalAR lab. Our testing environment is a 4m x 3m x 1.5m tank, equipped with 13 OptiTrack cameras, and the capability to make gyres in the tank. At any given time, we can have upwards of 10 mASV in the tank performing different control strategies. Within the tank we have demonstrated heterogeneous teams using Crazyflie robots and mASV simultaneously.
 
 
 ## Relevant Publications:
