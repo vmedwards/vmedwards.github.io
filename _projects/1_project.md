@@ -14,11 +14,11 @@ We know that some dynamic environments have known periodic behavior, e.g., river
 Robots must perform coordinated sampling strategies at specific moments in time which is categorized as the scheduling and coalition formation problem. 
 Existing microscopic solutions plan and control for individual robots and require expensive replanning, e.g., when environment or task conditions change.
 Interestingly, biologists have long studied how animal populations make fast resource selections in dynamic and uncertain environments.
-One popular albeit simple model of this phenomena is referred to as the ideal free distribution (IFD) model: animals make random weighted resource selection based on the precieved resource value.
+One popular albeit simple model of this phenomena is referred to as the ideal free distribution (IFD) model: animals make random weighted resource selection based on the perceived resource value.
 The key is that each individual may select an option that is not optimal for the individual but instead beneficial for the overall survival of the population. 
 Taking inspiration from biology, macroscopic ensemble methods model populations of robots where each robot makes a weighted random task selection based on model parameters. 
 Macroscopic approaches have been shown to have nice analytical guarantees, scalability, and can even be applied to heterogeneous robot collectives.
-However, macroscopic methods often ignore robot-robot collaborations in favor of model simplicity, desipte this being a key feature of existing biological models.
+However, macroscopic methods often ignore robot-robot collaborations in favor of model simplicity, despite this being a key feature of existing biological models.
 Existing macroscopic models are asymptotically stable, i.e., given a desired distribution of robots we can find model parameters that will ensure those populations are achieved.
 The problem we aim to address is: design a macroscopic ensemble modeling and control method for multi robot teams that controls time-varying populations of robots.
 Our solution introduces robot-robot collaborations to the model which allow for the potential of time-varying distributions of robots in the workspace.
