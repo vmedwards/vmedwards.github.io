@@ -12,14 +12,19 @@ Environmental monitoring requires assigning robots to sampling locations.
 This is a variant of the Multi Robot Task Allocation (MRTA) problem.
 We know that some dynamic environments have known periodic behavior, e.g., rivers with tidal shifts.
 Robots must perform coordinated sampling strategies at specific moments in time which is categorized as the scheduling and coalition formation problem. 
-Solutions to this problem can be categorized as follows.
-On one hand, microscopic solutions plan and control for individual robots and require expensive replanning, e.g., when environment or task conditions change.
-On the other hand, macroscopic solutions design team-wide objectives to distribute robots throughout an environment.
+Existing microscopic solutions plan and control for individual robots and require expensive replanning, e.g., when environment or task conditions change.
+Interestingly, biologists have long studied how animal populations make fast resource selections in dynamic and uncertain environments.
+One popular albeit simple model of this phenomena is referred to as the ideal free distribution (IFD) model: animals make random weighted resource selection based on the precieved resource value.
+The key is that each individual may select an option that is not optimal for the individual but instead beneficial for the overall survival of the population. 
+Taking inspiration from biology, macroscopic ensemble methods model populations of robots where each robot makes a weighted random task selection based on model parameters. 
 Macroscopic approaches have been shown to have nice analytical guarantees, scalability, and can even be applied to heterogeneous robot collectives.
-However, macroscopic methods often ignore robot-robot collaborations in favor of model simplicity.
-The resulting models are asymptotically stable, i.e., given a desired distribution of robots we can find model parameters that will ensure those populations are achieved.
+However, macroscopic methods often ignore robot-robot collaborations in favor of model simplicity, desipte this being a key feature of existing biological models.
+Existing macroscopic models are asymptotically stable, i.e., given a desired distribution of robots we can find model parameters that will ensure those populations are achieved.
 The problem we aim to address is: design a macroscopic ensemble modeling and control method for multi robot teams that controls time-varying populations of robots.
-Our solution introduces robot-robot collaborations to the model which allow for the potential of time-varying distributions of robots in the workspace. 
+Our solution introduces robot-robot collaborations to the model which allow for the potential of time-varying distributions of robots in the workspace.
+Furthermore, our latest results show a model reinterpretation that allows the break-down of the well-mixed assumption.
+This means we can achieve time-varying populations without needing robots to perform tasks throughout the environment.
+Our latest experimental results are shown below! 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -34,6 +39,17 @@ We experimentally verify our methods using the miniature Autonomous Surface Vehi
 
 
 ## Relevant Publications:
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uu9j6HfAzk?si=I2TW47UPyAuqEKpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
+<div class="caption">
+In this video, we show the mixed reality experimental results for Collaborative Macroscopic Allocation. The result is time-varying populations of robots performing different tasks. Two model interpretations are considered 1) collaboration-based task switching and 2) time-based task switching.  
+</div>
+
+Recently our work was accepted to Autonomous Robotics! Building off of prior results for this project, we take inspiration from population modeling in other disciplines and present a nonlinear macroscopic ensemble allocation model that describes individual robot collaboration with the potential for time-varying task assignment without the need for replanning populations. Our results demonstrate a range of possible time-varying task assignment behaviors that are potential solutions to handling known periodic environments or task changes.  In addition, we explore the breakdown of classic macroscopic modeling assumptions and present model reinterpretations to mitigate their impact. Our simulation and experimental results demonstrate time-varying task assignment, which could be applied to tasks like environmental monitoring, collective construction, and resource distribution.
+
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/well-mixed.png" title="well_mixed" class="img-fluid rounded z-depth-1" %}
